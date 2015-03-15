@@ -133,6 +133,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhx-vV-Xgl"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaE-V3-QFs">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="154" width="255" height="37"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -160,6 +169,7 @@
                                 <exclude reference="gtQ-qt-CPt"/>
                                 <exclude reference="HiT-CB-icW"/>
                                 <exclude reference="iIc-fC-BW4"/>
+                                <exclude reference="qaE-V3-QFs"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="YCe-H5-G8z"/>
@@ -187,6 +197,7 @@
                                 <include reference="gtQ-qt-CPt"/>
                                 <include reference="HiT-CB-icW"/>
                                 <include reference="iIc-fC-BW4"/>
+                                <include reference="qaE-V3-QFs"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="YCe-H5-G8z"/>
@@ -213,6 +224,7 @@
                         <outlet property="enterNameTextField" destination="OCj-8I-mJw" id="TJo-kn-Xum"/>
                         <outlet property="mailButton" destination="iIc-fC-BW4" id="OBp-LR-SFw"/>
                         <outlet property="messageLabel" destination="HiT-CB-icW" id="eMG-j8-eEa"/>
+                        <outlet property="nameLabel" destination="qaE-V3-QFs" id="3zH-B1-dhh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
